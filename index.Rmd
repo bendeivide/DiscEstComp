@@ -13,4 +13,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Relatório da aula 01
 - ...
-- Relatório da aula 06
+- [Relatório da aula 06](aula06/index.html)
