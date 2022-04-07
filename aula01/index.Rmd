@@ -1,0 +1,55 @@
+---
+title: "Aula 06"
+author: "Ben Deivide"
+date: '2022-04-07'
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introdução ao RMarkdown
+
+### Escrever textos personalizados
+
+- Para escrever em itálico: (`*itálico*`) *itálico*!
+- Para escrever em negrito: (`**negrito** ou __negrito__`) **negrito** ou __negrito__ .
+- Nota de rodapé:(`Ben Dêivide^[Professor da UFSJ]`) Ben Dêivide^[Professor da UFSJ]
+- Link: `[Nome do link](link)` [Ben Dêivide](https://bendeivide.github.io)
+- Inserir imagens: `![Nome da imagem](local da imagem)`:
+![Logo do leem](leem.png){width="50%"}
+- Inserindo resultado de código no corpo do texto: `r mean(1:10)`
+  - Exemplo: Tendo um conjunto de dados, a seguir:
+```{r}
+dado <- rnorm(100); dado
+```
+A média desses valores é: `r mean(dado)`, e o desvio padrão é `r sd(dado)`, bem como a variância dada por: `r var(dado)`
+
+- Inserindo código Latex: $ \bar{X} = \frac{\sum_{i = 1}^{n}X_i}{n} $
+
+$$
+\frac{\sum_{i = 1}^{n}X_i}{n}
+$$
+\begin{align*}
+\frac{\sum_{i = 1}^{n}X_i}{n}
+\end{align*}
+
+- Mostrando apenas o código:
+
+```{r eval=FALSE}
+# Como importar dados
+dado <- read.table(file, header, sep, dec)
+```
+
+
+
+
+
+
+
+
+
