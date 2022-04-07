@@ -1,0 +1,16 @@
+---
+title: "Relatório da Disc Estatística Computacional"
+author: "Ben Deivide"
+date: '2022-04-07'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Relatórios
+
+- Relatório da aula 01
+- ...
+- Relatório da aula 06
