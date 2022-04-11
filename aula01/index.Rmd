@@ -12,31 +12,29 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Texto paralelos
 
-.left[</br>]
-.left[#Sintaxe]
-.left[###**Títulos/Subtítulos**]
-.left[    A ordem hierárquica dos títulos é definida pela quantidade de #, e sua quantidade pode variar de 1 a 6 #.]
-.pull-left[
-```
-# Título 1
-## Título 2
-### Título 3
-#### Título 4
-##### Título 5
-###### Título 6
-```
-]
-.pull-right[
-# Título 1
-## Título 2
-### Título 3
-#### Título 4
-##### Título 5
-###### Título 6
-]
+<section>
+  <div style="text-align: left; float: left">
+    <p data-markdown>- Primeiro </p>
+    <p data-markdown>- Segundo </p>
+  </div> 
+  <div style="text-align: right; float: right">
+    <p data-markdown>- Primeiro </p>
+    <p data-markdown>- Segundo </p>
+  </div> 
+</section>
 
+
+## Teste 2
+
+  <div style="text-align: left; float: left">
+    <p data-markdown>- Primeiro </p>
+    <p data-markdown>- Segundo </p>
+  </div> 
+  <div style="text-align: right; float: right">
+    <p data-markdown>- Primeiro </p>
+    <p data-markdown>- Segundo </p>
+  </div> 
 
 
 
