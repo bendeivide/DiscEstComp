@@ -1,5 +1,5 @@
 ---
-title: "Relatório 02 - Como usar o projeto Relatórios"
+title: "Relatório 03"
 author: "Ben Dêivide"
 date: "12/04/2022"
 header-includes:
@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Objetivo
 
-Descrever como realizar os relatórios.
+Descrever o objetivo do relatório!
 
 # Apresentação do relatório
 

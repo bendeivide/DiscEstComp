@@ -1,5 +1,5 @@
 ---
-title: "Relatório 01"
+title: "Relatório 01 - Introdução ao R"
 author: "Ben Dêivide"
 date: "12/04/2022"
 header-includes:
@@ -30,9 +30,24 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Objetivo
 
-Descrever o objetivo do relatório!
+Descrever as ideias básicas sobre o ambiente R:
+
+- Como instalar o R e RStudio;
+- Diferenças entre o R e a IDE RStudio;
+- Como o R trabalha;
+- Comandos elementares;
+- Objetos;
+- Manipulação com objetos;
+- Importação de dados;
+- Pacotes:
+  - Instalação;
+  - Como usar.
 
 # Apresentação do relatório
 
-Aqui será o local para apresentar o material sobre o relatório.
+Diante do objetivo do relatório, apresentaremos nas próximas subseções, os pontos a serem discutidos.
+
+## Como instalar o R e o RStudio
+
+
 
