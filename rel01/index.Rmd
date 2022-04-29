@@ -10,7 +10,7 @@ header-includes:
 toc-title: "Sumário"
 output:
   
-  html_document:
+  bookdown::html_document2: 
     theme: journal
     highlight: tango
     toc: yes

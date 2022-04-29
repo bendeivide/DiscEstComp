@@ -10,6 +10,8 @@ header-includes:
 toc-title: "Sumário"
 output:
   bookdown::html_document2: 
+    keep_md: true
+  html_document:
     theme: journal
     highlight: tango
     toc: yes
@@ -22,9 +24,7 @@ output:
     number_sections: yes
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 --- 
 
 # Objetivo
